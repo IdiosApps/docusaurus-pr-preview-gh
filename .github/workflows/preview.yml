@@ -18,6 +18,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - run: echo "PREVIEW_PATH=pr-preview/pr-${{ github.event.number }}" >> "$GITHUB_ENV"
+
       - name: Install and Build
         run: |
           yarn install
