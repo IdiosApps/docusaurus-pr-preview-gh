@@ -4,7 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const base = '/docusaurus-pr-preview-gh'
+const base = '/docusaurus-pr-preview-gh/'
 const baseUrl = (process.env.PREVIEW_PATH)
   ? `${base}/${process.env.PREVIEW_PATH}`
   : `${base}`
