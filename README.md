@@ -1,3 +1,9 @@
+# pr preview
+this repo is to check   
+- https://github.com/rossjrw/pr-preview-action/issues/14 +
+    - vercel (documented above), layer0 (documented above), and netlify (in Docusaurus repo CI) seem to have previews
+- https://docusaurus.io/docs/deployment#deploying-to-github-pages
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
